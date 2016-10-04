@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">vk</string>
+    <string name="news">Новости</string>
+    <string name="what_new">Что у вас нового?</string>
+    <string name="groupName">5 смешных анектодов</string>
+    <string name="time">8 минут назад</string>
+</resources>
