@@ -87,7 +87,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="16dp"
                             android:background="?attr/selectableItemBackground"
-                            android:src="@drawable/coolphoto" />
+                            android:src="@drawable/ava_andrey" />
 
                         <ImageView
 
