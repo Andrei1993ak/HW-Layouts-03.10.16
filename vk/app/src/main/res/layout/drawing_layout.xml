@@ -81,34 +81,12 @@
                 android:textColor="#5181B8" />
         </FrameLayout>
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/item1">
-
-            <com.gmail.a93ak.andrei19.vk.IcButton
+        <com.gmail.a93ak.andrei19.vk.IcButton
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="left|center_vertical"
-                android:paddingLeft="16dp"
+                android:layout_height="@dimen/item1"
                 app:leftIcon = "@drawable/ic_notifications_grey_24dp"
+                app:onClickLeftIcon = "@drawable/ic_notifications_blue_24dp"
                 android:text="Ответы"/>
-                <!--app:leftIcon =  "@dra"/>-->
-            <!--<ImageButton-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:layout_gravity="left"-->
-                <!--android:background="?attr/selectableItemBackground"-->
-                <!--android:paddingRight="@dimen/dimen_icon"-->
-                <!--android:src="@drawable/ic_notifications_grey_24dp" />-->
-
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_gravity="center_vertical"-->
-                <!--android:layout_marginLeft="@dimen/dimen2"-->
-                <!--android:text="Ответы"-->
-                <!--android:textColor="@android:color/black" />-->
-        </FrameLayout>
 
         <FrameLayout
             android:layout_width="match_parent"

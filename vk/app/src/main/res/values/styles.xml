@@ -1,7 +1,7 @@
 <resources xmlns:android="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -10,8 +10,9 @@
     </style>
 
     <style name="MyOriginalVKButton" parent="Widget.AppCompat.Button">
-        <!--<item name="android:background">@android:color/white</item>-->
-        <!--<item name="android:background">@drawable/abc_btn_default_mtrl_shape</item>-->
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:drawablePadding">28dp</item>
         <item name="android:background">?attr/selectableItemBackground</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/button_click_text_color</item>
