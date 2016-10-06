@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,6 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="icButtonStyle">@style/MyOriginalVKButton</item>
+    </style>
+
+    <style name="MyOriginalVKButton" parent="Widget.AppCompat.Button">
+        <!--<item name="android:background">@android:color/white</item>-->
+        <!--<item name="android:background">@drawable/abc_btn_default_mtrl_shape</item>-->
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/button_click_text_color</item>
     </style>
 
 </resources>
